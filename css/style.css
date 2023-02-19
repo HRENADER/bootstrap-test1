@@ -1,0 +1,63 @@
+:root {
+  --color1: black;
+  --color2: purple;
+}
+
+.container {
+  padding: 50px 0px 0px 0px;
+}
+/*О проекте*/
+.about  {
+  background-color: #eee;
+}
+
+.about i {
+  font-size: 25px;
+  color: var;
+}
+
+.hrn_circle {
+  margin: 0 auto 15px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 100px;
+  height: 3px;
+  background-color: var(--color1);
+  margin: 15px auto 30px;
+}
+
+/* Для кого проект */
+
+.forwhom h5 {
+  padding: 50px;
+  border: 3px solid var(--color1);
+}
+
+.btn-hrn {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  padding: 8px 30px;
+  color: var(--bs-white);
+  background-color: var(--color2);
+}
+
+.btn-hrn:hover {
+  color: var(--bs-white);
+  background-color: var(--color1);
+}
+
+footer {
+  background-color: var(--color1);
+  background-size: contain;
+  width: 1481px;
+  height: 100px;
+}
